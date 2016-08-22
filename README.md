@@ -5,7 +5,7 @@ HelloWorld for Fable, the F#-to-JavaScript compiler
 This is the simplest thing I know how to do with [Fable][1],
 the F#-to-JavaScript compiler. This program retrieves a `div` in an HTML page and sets its value:
 
-```
+```fsharp
 #r "node_modules/fable-core/Fable.Core.dll"
 
 open Fable.Core
@@ -17,7 +17,7 @@ div.innerHTML <- "Hello, World!"
 
 With this corresponding HTML page:
 
-```
+```html
 <!doctype html>
 <html>
 <head>
